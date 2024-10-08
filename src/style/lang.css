@@ -1,0 +1,45 @@
+.langList {
+  margin: 25px auto 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.starContainer {
+  display: inline-flex;
+  width: fit-content;
+  height: 30px;
+  margin: 10px;
+}
+
+.star {
+  width: 20px;
+  margin: 2px 5px;
+}
+
+.langItem {
+  margin: 0px auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.langItem > img {
+  height: 130px;
+}
+
+@media screen and (min-width: 768px) {
+  .langList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 25px auto 5px;
+    width: fit-content;
+  }
+
+  .langItem {
+    margin: 0 10px;
+  }
+
+}

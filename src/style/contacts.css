@@ -1,0 +1,15 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+}
+
+.par {
+    font-size:xx-large;
+}
+
+.social img {
+    width: 30px;
+    margin: 0 20px;
+}

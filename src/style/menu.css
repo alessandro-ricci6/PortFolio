@@ -1,0 +1,35 @@
+.menuBtn:hover {
+  font-size: x-large;
+  padding: 2px 0;
+}
+
+.navbar {
+  background-color: rgba(8, 8, 26, 13);
+  width: 80%;
+  min-width: fit-content;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 15px;
+  box-shadow: rgba(52, 52, 110, 0.767) 5px 5px 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.menuBtn {
+  margin: 0px auto;
+  font-size: large;
+  padding: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    width: 60%;
+  }
+
+  .menuBtn  {
+    margin: 15px auto
+  }
+}
